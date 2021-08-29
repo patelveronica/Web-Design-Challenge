@@ -1,0 +1,201 @@
+h1 {
+  color: rgb(13, 95, 122);
+  font-size: 25px;
+  padding: 4px;
+  /* text-align: left; */
+  margin-top: 15px;
+  text-align:justify;
+ 
+}
+h2{
+  text-align: 50px;
+  margin-top: 10px;
+  color: rgb(13, 95, 122);
+  }
+p {
+  text-align:left;
+  font-size: 15px;
+  margin-top: 0;
+  }
+h3{
+  text-align: left;
+  font-size: 15px;
+  color: rgb(13, 95, 122);
+  margin-top: 10px;
+  left: 18%;
+  padding: 6px;
+}
+
+.navbar-nav {
+  margin-left: 80%;
+  }
+.styled-table {
+  border-collapse:collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 500px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+  box-shadow: ivory;
+  border: none;
+}
+.styled-table thead tr {
+  background-color: lightskyblue;
+  color: black;
+  text-align: left;
+}
+.styled-table th
+{
+    padding: 10px 12px;
+}
+.top-left {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  color: rgb(13, 95, 122);
+  margin-top: 15px;
+  font-size: 1.3em;
+  font-style :unset;
+}
+.top-right {
+  position: absolute;
+  top: 22%;
+  right: 16px;
+  right: 40%;
+  color: rgb(13, 95, 122);
+  font-size: 1.3em;
+}
+
+/* .navbar{
+  overflow: hidden;
+  padding: 1px;
+  font-size: 15px;
+  }
+/* .navbar li a{
+  float: left;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 50%;
+} */
+/* .dropdown {
+  float: right;
+  
+} */
+/* Dropdown button */
+
+/* .nav-link{
+  font-size: 15px;
+  margin-left: 50%;
+/* } */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  background-color:rgb(243, 243, 243);
+} 
+
+/* .navbar li{
+  display: inline-block;
+  border-radius: 3px;
+  /* background-color: cornsilk; */
+  /* padding: 5px;
+  margin-right: 1px;
+  margin-left: 5px;
+  cursor: pointer;
+} */ 
+/* .navbar li a{
+  color: #000;
+  text-decoration: none;
+  position: fixed;
+  right: 50%;
+  margin-top: -2.5em;
+  float: left;
+  }
+}
+
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #cdcdcd;
+} */
+#nav-select {
+  visibility: hidden;
+}
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+ @media (max-width: 900px) {
+  .navbar li {
+    padding: 10px;
+  } 
+
+ .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}
+
+/* h2 {
+  color: white;
+  font-size: 20px;
+  background-color: lightseagreen;
+  padding: 3px;
+}
+
+
+  
+  
+}
+hr{
+    width: 100%;
+    height: auto;
+
+}
+
+#menu {
+  float:left;
+  background: white
+}
+html{
+  position: realtive;
+  min-height: 100%;
+}
+body{
+  margin-bottom: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f1f1; 
+} */ 
+
+/* #red {
+  color: red;
+}
+
+#big-font {
+  font-size: 40px;
+}
+
+#bold-font {
+  font-weight: bold;
+}
+
+.back-black {
+  background-color:lightseagreen;
+} */
+
+/* .small-font {
+  font-size: 10px;
+} */
+/* .container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ */ 
