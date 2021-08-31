@@ -11,57 +11,72 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-primary navbar-light">
-        <a class="navbar-brand" href="index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="Comparison.html">Comparision <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="Data.html">Data</a>
-        </li>
-        <li class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
-           
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="MaxTemperature.html">MaxTemparature</a></li>
-              <div class="dropdown-divider"></div>
-              <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
-              <div class="dropdown-divider"></div>
-              <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
-              <div class="dropdown-divider"></div>
-              <li><a class="dropdown-item" href="WindSpeed.html">WindSpeed</a></li>
-            </ul>
-          </li>
-    </div>
-</nav>
-    <div class="container"></div>
+    <div class="row">
+        <div class="col-md-12">   
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="Comparison.html">Comparision <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Data.html">Data</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="MaxTemperature.html">Max temperature</a>
+                    <a class="dropdown-item" href="Humidity.html">Humidity</a>              
+                    <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="WindSpeed.html">WindSpeed</a>
+                  </div>
+                </li>          
+              </ul>        
+            </div>
+          </nav>
+        </div>
+      </div>
+    <div class="container">
         <article class="row description2-content">
-            <div class="col-sm-12">
-                <h1>Comparision: Latitude vs X</h1>
-                <h3>Click any plot to get an in-depth analysis</h3>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Comparision: Latitude vs X</h1>
+                    <hr>
+                    <h3>Click any plot to get an in-depth analysis</h3>
+                </div>
             </div>
         </article>
         <br>
         <div class="row">
             <div class="column-md-6">
-                <a href="MaxTemperature.html"><img src="Resources/assets/images/Fig1.png",alt="vs. Max Temperature", style="width:600px;height: 400px;", class="float-left"></a>
-                <div class="top-left">vs. MaxTemperature</div>
-                <a href="Humidity.html"><img src="Resources/assets/images/Fig2.png",alt="City Lat vs. Humidity", style="width:600px;height: 400px;", class="float-left"></a>
-                <div class="top-right">vs.Humidity</div>
+                <h1>vs. MaxTemperature</h1>
+                <a href="MaxTemperature.html"><img src="Resources/assets/images/Fig1.png",alt="vs. Max Temperature", style="width:350px", class="float-left"></a>
+                <!-- <div class="top-left">vs. MaxTemperature</div> -->
+                <h1>vs. Humidity</h1>
+                <a href="Humidity.html"><img src="Resources/assets/images/Fig2.png",alt="City Lat vs. Humidity", style="width:350px", class="float-left"></a>
+                <!-- <div class="top-right">vs.Humidity</div> -->
             </div>
-        </div>
-        <div class="row">
             <div class="column-md-6">
-                <a href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png",alt="City Lat vs. Cloudiness", style="width:600px;height: 400px;", class="float-left"></a>
+                <h1>vs. Cloudiness</h1>
+                <a href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png",alt="City Lat vs. Cloudiness", style="width:350px", class="float-left"></a>
                 <!-- <div class="top-right">vs. Cloudiness</div> -->
-                <a href="WindSpeed.html"><img src="Resources/assets/images/Fig4.png",alt="City Lat vs. Wind Speed", style="width:600px;height: 400px;", class="float-left"></a>
-                <!-- <div class="top-right">vs "WindSpeed"</div> -->
+                <h1>vs. Wind Speed</h1>
+                <a href="WindSpeed.html"><img src="Resources/assets/images/Fig4.png",alt="City Lat vs. Wind Speed", style="width:350px", class="float-left"></a>
             </div>
         </div>
     </div>
 </body>
+<!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+ <!-- Always remember to call the above files first before calling the bootstrap.min.js file --> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</html>

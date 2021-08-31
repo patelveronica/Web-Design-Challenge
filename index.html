@@ -12,94 +12,86 @@
     
 </head>
 <body>
-<!-- white with light blue text -->
 <div class="row">
-  <div class="col-md-12">
-    <nav class="navbar navbar-expand-sm bg-primary navbar-light">
+  <div class="col-md-12">   
+    <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="index.html">Latitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="Comparison.html">Comparision <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="Data.html">Data</a>
-        </li>
-        <li class="nav-item active dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="MaxTemperature.html">MaxTemparature</a></li>
-              <div class="dropdown-divider"></div>
-            <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
-              <div class="dropdown-divider"></div>
-            <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
-              <div class="dropdown-divider"></div>
-            <li><a class="dropdown-item" href="WindSpeed.html">WindSpeed</a></li>
-          </ul>
-        </li>
-     </ul>
-    </div>
+      </button>    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Comparison.html">Comparision <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Data.html">Data</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="MaxTemperature.html">Max temperature</a>
+              <a class="dropdown-item" href="Humidity.html">Humidity</a>              
+              <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="WindSpeed.html">WindSpeed</a>
+            </div>
+          </li>          
+        </ul>        
+      </div>
+    </nav>
   </div>
-  </nav>
 </div>
 <div class="container">
+  <section class="posts">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-9">
         <h1>Summary: Latitude vs. X</h1>
+        <hr>
+          <div>
+            <a href="MaxTemperature.html">
+            <img src="Resources/assets/images/Fig1.png",alt="City Lat vs. Temp", style="width:400px", class="float-left">
+            </a> 
+          </div>
+          <div>
+            <p>The purpose of this project was to analyze how the weather 
+              changes as you get loser to the equator. To accomplish this
+              analysis, first, the data was pulled from the OpenWeather Map API
+              to create a dataset on over 500 cities.
+           </p>
+           <p>After assembling the dataset, Matplotlib Python library was used to plot various
+              aspects of the weather vs, latitude. Factors observed included: max temperature, humidity, 
+              cloudines, and wind speed. This site provides the source data ad visualizations created
+              as part of the analysis, as well as explanations and descriptions of any trends and
+              correlations observed.
+           </p> 
+          </div>
       </div>
-    <div class="row">
-      <div class="col-md-6">
-        <img src="Resources/assets/images/Fig1.png",alt="City Lat vs. Temp", style="width:300px", class="float-left">
-      </div> 
+      <div class="col-md-3">
+          <h1>visualizations</h1>
+          <hr>
+        <div>
+          <a href="MaxTemperature.html">
+            <img src="Resources/assets/images/Fig1.png", alt="City Lat vs. Temp", class="center", style="width:350px">
+          </a> 
+          <a href="Humidity.html">
+            <img src="Resources/assets/images/Fig2.png", alt="City Lat vs. Humidity", style="width:350px">
+          </a>
+          <a href="Cloudiness.html">
+            <img src="Resources/assets/images/Fig3.png", alt="City Lat vs. Cloudiness", style="width:350px">
+          </a>
+          <a href="Cloudiness.html">
+            <img src="Resources/assets/images/Fig3.png", alt="City Lat vs. Cloudiness", style="width:350px">
+          </a>
+          <a href="WindSpeed.html">
+            <img src="Resources/assets/images/Fig4.png",alt="City Lat vs. Wind Speed", style="width:350px">   
+          </a>
+        </div>
+      </div>
     </div>
-      <div class="col-md-6">
-        <p>The purpose of this project was to analyze how the weather 
-           changes as you get loser to the equator. To accomplish this
-           analysis, first, the data was pulled from the OpenWeather Map API
-           to create a dataset on over 500 cities.
-        </p>
-        <p>After assembling the dataset, Matplotlib Python library was used to plot various
-           aspects of the weather vs, latitude. Factors observed included: max temperature, humidity, 
-           cloudines, and wind speed. This site provides the source data ad visualizations created
-           as part of the analysis, as well as explanations and descriptions of any trends and
-           correlations observed.
-        </p>
-      </div>
-        <br>
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Visualizations</h1>
-        </div>
-      </div>
-      <hr class="images"/>
-        <div class = "row">
-            <div class = "column">
-              <a href="MaxTemperature.html">
-                <img src="Resources/assets/images/Fig1.png", alt="City Lat vs. Temp", class="center", style="width:250px">
-              </a>
-            </div>
-            <div class = "column">
-              <a href="Humidity.html">
-                <img src="Resources/assets/images/Fig2.png", alt="City Lat vs. Humidity", style="width:250px">
-              </a>
-            </div>
-            <div class = "column">
-              <a href="Cloudiness.html">
-                <img src="Resources/assets/images/Fig3.png", alt="City Lat vs. Cloudiness", style="width:250px">
-              </a>
-            </div>
-            <div class = "column">
-              <a href="WindSpeed.html">
-                <img src="Resources/assets/images/Fig4.png",alt="City Lat vs. Wind Speed", style="width:250px">   
-              </a>
-            </div>
-        </div>
-  
+  </section>    
+</div> 
    
 </body>
 <!-- Optional JavaScript -->
