@@ -27,7 +27,7 @@ h3{
   padding: 6px;
 }
 
-.navbar-nav {
+ .navbar-nav {
   margin-left: 80%;
   }
 .styled-table {
@@ -36,7 +36,6 @@ h3{
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 500px;
-  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
   box-shadow: ivory;
   border: none;
 }
@@ -70,64 +69,21 @@ h3{
 .container {
   width: 1024px;
   margin: 0 auto;
-  /* background-color:rgb(243, 243, 243); */
 } 
 html{
   position: realtive;
   min-height: 100%;
 }
-/* h2 {
-  color: white;
-  font-size: 20px;
-  background-color: lightseagreen;
-  padding: 3px;
-} 
-body{
-  margin-bottom: 100px;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f1f1f1; 
-} */ 
-
-/* #red {
-  color: red;
-}
-
-#big-font {
-  font-size: 40px;
-}
-
-#bold-font {
-  font-weight: bold;
-}
-
-.back-black {
-  background-color:lightseagreen;
-} */
-
-/* .small-font {
-  font-size: 10px;
-} */
-/* .container {
-  display: inline-block;
-  cursor: pointer;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
- */ 
-
  .navbar {
     background-color: lightseagreen;
     color: black;
- }
+  }
 .navbar-brand{
   color: black;
 }
-.nav-link {
+/* .nav-link {
   color: black;
+}  */
+.bg-light {
+  background-color: #799ec2!important;
 }
-
-
