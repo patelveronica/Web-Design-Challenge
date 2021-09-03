@@ -21,13 +21,7 @@
       </button>    
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">       
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="Comparison.html">Comparision <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Data.html">Data </a>
-          </li>
+        <ul class="navbar-nav mr-auto">         
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Plots
@@ -38,6 +32,12 @@
               <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
               <a class="dropdown-item" href="WindSpeed.html">WindSpeed</a>
             </div>          
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Comparison.html">Comparision <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Data.html">Data </a>
           </li>          
         </ul>   
       </div>
@@ -55,40 +55,47 @@
             <img src="Resources/assets/images/Fig1.png",alt="City Lat vs. Temp", style="width:500px", class="float-left">
             </a> 
           </div>
-          <div>
-            <p>The purpose of this project was to analyze how the weather 
+            <div>
+              <p>The purpose of this project was to analyze how the weather 
               changes as you get loser to the equator. To accomplish this
               analysis, first, the data was pulled from the OpenWeather Map API
               to create a dataset on over 500 cities.
-           </p>
-           <p>After assembling the dataset, Matplotlib Python library was used to plot various
+              </p>
+              <p>After assembling the dataset, Matplotlib Python library was used to plot various
               aspects of the weather vs, latitude. Factors observed included: max temperature, humidity, 
               cloudines, and wind speed. This site provides the source data and visualizations created
               as part of the analysis, as well as explanations and descriptions of any trends and
               correlations observed.
-           </p> 
-          </div>
+              </p> 
+           </div>
       </div>
       <div class="col-md-3">
-          <h1>Visualizations</h1>
-          <hr>
-        <div>
-          <a href="MaxTemperature.html">
-            <img src="Resources/assets/images/Fig1.png", alt="City Lat vs. Temp", class="center", style="width:350px">
-          </a> 
-          <a href="Humidity.html">
-            <img src="Resources/assets/images/Fig2.png", alt="City Lat vs. Humidity", style="width:350px">
-          </a>
-          <a href="Cloudiness.html">
-            <img src="Resources/assets/images/Fig3.png", alt="City Lat vs. Cloudiness", style="width:350px">
-          </a>
-          <a href="Cloudiness.html">
-            <img src="Resources/assets/images/Fig3.png", alt="City Lat vs. Cloudiness", style="width:350px">
-          </a>
-          <a href="WindSpeed.html">
-            <img src="Resources/assets/images/Fig4.png",alt="City Lat vs. Wind Speed", style="width:350px">   
-          </a>
-        </div>
+        <h1>Visualizations</h1>
+        <hr>          
+          <div>
+            <div class = "row">
+              <div class = 'col-md-6 col-3'>
+                <a href="MaxTemperature.html">
+                <img src="Resources/assets/images/Fig1.png", alt="City Lat vs. Temp", class="center img-fluid">
+                </a> 
+              </div>
+              <div class = 'col-md-6 col-3'>
+                <a href="Humidity.html">
+                <img src="Resources/assets/images/Fig2.png", alt="City Lat vs. Humidity", class="center img-fluid">
+                </a>
+              </div>        
+              <div class = 'col-md-6 col-3'>
+                <a href="Cloudiness.html">
+                <img src="Resources/assets/images/Fig3.png", alt="City Lat vs. Cloudiness", class="center img-fluid">
+                </a>
+              </div>   
+              <div class = 'col-md-6 col-3'>      
+                <a href="WindSpeed.html">
+                <img src="Resources/assets/images/Fig4.png",alt="City Lat vs. Wind Speed", class="center img-fluid">   
+                </a>
+              </div>
+            </div>
+          </div>      
       </div>
     </div>
   </section>    
